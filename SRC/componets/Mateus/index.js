@@ -1,12 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import react from 'expo-status-bar';
+import {Text, View, Button } from 'react-native';
 
-export default function App() {
+export default function Mateusgari() {
   return (
     <View style={styles.container}>
-      
-      <Text>Colne do projeto aula 14-03-2024 3B1 lado B</Text>
-      <Text></Text>
+      <Text>Mateus Alexandre gari</Text>
+      <Text>1° prova de DDM Lado B</Text>
       <StatusBar style="auto" />
       <Button title='salvar'></Button>
     </View>
